@@ -1,0 +1,70 @@
+.modal {
+    margin-top: 50px;
+    position: absolute;
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px lightgray;
+}
+.modal > h4 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.form {
+    border: 1px solid rgb(241,243,246);
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Avenir Next';
+    /* background-color: black; */
+}
+.parameter {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.parameter > input {
+    font-size: 14px;
+    font-family: 'Avenir Next';
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+    width: 300px;
+}
+
+.comment {
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.comment > textarea {
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Avenir Next';
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+}
+
+.saveButton {
+    float: right;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(76,119,251);
+    outline-style: none;
+}
